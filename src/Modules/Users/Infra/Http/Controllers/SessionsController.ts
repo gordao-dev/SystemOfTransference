@@ -2,7 +2,7 @@ import { Request, Response, NextFunction, json } from "express";
 import { container } from "tsyringe";
 import { classToClass } from "class-transformer";
 
-import AuthenticateUserService from "../../../Services/AuthenticateUserService";
+import AuthenticateUserService from "../../../Services/AuthenticateUsersService";
 import SignOutUserService from "../../../Services/SignOutUserService";
 
 class SessionsController {
